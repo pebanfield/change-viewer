@@ -2,7 +2,7 @@
  * index
  */
 var gui = require('nw.gui');
-var gitParser = require('change-view-service/parser');
+var gitParser = require('change-view-service');
 
 gitParser.getHistory();
 
