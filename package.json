@@ -1,0 +1,27 @@
+{
+  "name": "change-viewer",
+  "version": "1.0.0",
+  "description": "A nw.js application for viewing git commit history.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pebanfield/change-viewer.git"
+  },
+  "author": "pebanfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pebanfield/change-viewer/issues"
+  },
+  "homepage": "https://github.com/pebanfield/change-viewer#readme",
+  "dependencies": {
+    "gulp-util": "^2.2.14"
+  },
+  "devDependencies": {
+    "gulp": "^3.x",
+    "node-webkit-builder": "^1.x"
+  }
+ 
+}
