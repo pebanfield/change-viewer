@@ -2,10 +2,13 @@
   "name": "change-viewer",
   "version": "1.0.0",
   "description": "An nw.js application for viewing git commit history.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pebanfield",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "change-view-service": "git+https://github.com/pebanfield/change-view-service.git"
+  }
 }
