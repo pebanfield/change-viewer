@@ -5,7 +5,7 @@ var gutil = require('gulp-util');
 gulp.task('nw', function () {
 
     var nw = new NwBuilder({
-        version: '0.11.0',
+        version: '0.12.2',
         files: './nwapp/**',
         macIcns: './icons/icon.icns',
         macPlist: {mac_bundle_id: 'myPkg'},
